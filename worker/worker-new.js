@@ -64,7 +64,7 @@ const authConfig = {
 const uiConfig = {
 	"theme": "samir_bootstrap", // Change doesn't works
 	"dark_mode": true, // switch between light or dark themes
-	"version": "2.0.1", // don't touch this one. get latest code using generator at https://github.com/SamirJanaOfficial/Samir-Drive-Index
+	"version": "2.0.1", // don't touch this one. get latest code using generator
 	"logo_image": false, // true if you're using image link in next option.
 	"logo_link_name": "Bendrive XD", // if logo is true then link otherwise just text for name
 	"contact_link": "https://t.me/BenTennyson_xDBot", // Link to Contact Button on Menu

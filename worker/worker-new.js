@@ -137,7 +137,7 @@ function html(current_drive_order = 0, model = {}) {
 </head>
 <body>
 </body>
-<script src="https://cdn.jsdelivr.net/gh/SamirJanaOfficial/Samir-Drive-Index/js/bootstrap.min.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/swapnilg4u/bendriveindex/js/bootstrap.min.js"></script>
 </html>`;
 };
 

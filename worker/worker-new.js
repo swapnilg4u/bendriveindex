@@ -71,7 +71,7 @@ const uiConfig = {
 	"copyright_year": "2021", // year of copyright, can be anything like 2015 - 2020 or just 2020
 	"owner_name": "Bendrive Systems Pvt. Ltd.", // Name next to copyright
 	"owner_link": "https://t.me/BenTennyson_xDBot", // link of owner github
-	"company_name": "", // Name next to owner
+	"company_name": "Bendrive Systems Pvt. Ltd.", // Name next to owner
 	"company_link": "https://t.me/BenTennyson_xDBot", // link of copyright name
 	"credit": true, // Set this to true to give us credit
 };

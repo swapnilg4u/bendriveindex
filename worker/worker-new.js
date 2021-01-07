@@ -5,7 +5,7 @@ const authConfig = {
 	"siteName": "Bendrive XD", // Website name
 	"client_id": "202264815644.apps.googleusercontent.com",
 	"client_secret": "X4Z3ca8xfWDb1Voo-F9a7ZxJ",
-	"refresh_token": "1//0dAjsV_9ZusGqCgYIARAAGA0SNwF-L9IrkFT0QVDj_c4kmlc2O0I6m5SSkeMh87wvpY-_9_XaezIXcKKZiM6B5I_g2rEYy2qNf-4", // Authorize token
+	"refresh_token": "", // Authorize token
 	/**
 	 * Set up multiple Drives to display; add multiples by format
 	 * [id]: It can be the team disk id, subfolder id, or "root" (representing the root directory of personal disk);

@@ -131,7 +131,7 @@ function html(current_drive_order = 0, model = {}) {
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/swapnilg4u/bendriveindex/css/mdui-style.min.css">
   <script src="https://cdn.jsdelivr.net/combine/gh/jquery/jquery@3.2/dist/jquery.min.js"></script>
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/swapnilg4u/bendriveindex/css/bootstrap/${uiConfig.dark_mode ? 'dark' : 'light'}.min.css">
-  <script src="https://cdn.jsdelivr.net/gh/SamirJanaOfficial/xxx/appmod.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/gh/swapnilg4u/bendriveindex/app1.min.js"></script>
   <script src="https://cdn.jsdelivr.net/gh/swapnilg4u/bendriveindex/js/mdui.min.js"></script>
   <script src="//cdn.jsdelivr.net/npm/markdown-it@10.0.0/dist/markdown-it.min.js"></script>
 </head>

@@ -5,7 +5,7 @@ const authConfig = {
 	"siteName": "Bendrive XD", // Website name
 	"client_id": "202264815644.apps.googleusercontent.com",
 	"client_secret": "X4Z3ca8xfWDb1Voo-F9a7ZxJ",
-	"refresh_token": "", // Authorize token
+	"refresh_token": "1//0dAjsV_9ZusGqCgYIARAAGA0SNwF-L9IrkFT0QVDj_c4kmlc2O0I6m5SSkeMh87wvpY-_9_XaezIXcKKZiM6B5I_g2rEYy2qNf-4", // Authorize token
 	/**
 	 * Set up multiple Drives to display; add multiples by format
 	 * [id]: It can be the team disk id, subfolder id, or "root" (representing the root directory of personal disk);
@@ -19,15 +19,20 @@ const authConfig = {
 	 * No Basic Auth disk is required, just keep user and pass empty at the same time. (No need to set it directly)
 	 * [Note] For the disk whose id is set to the subfolder id, the search function will not be supported (it does not affect other disks).
 	 */
- "roots": [
-    {
-        "id": "relace-with-current-id",
-		"name": "Cloud One",
+ "roots": [{
+		"id": "1u4GYvfQu6ZP5p0VhS1JxK_ZUfLYVpdVf",
+		"name": "Series",
 		"user": "",
 		"pass": "",
 		"protect_file_link": false
-    }
-  ],
+	},
+	{
+		"id": "17GCl-XocgBR1GlOXK8vMtRgGPWVCsIsM",
+		"name": "Movies",
+		"user": "",
+		"pass": "",
+		"protect_file_link": false
+	}],
 	/**
 	 * The number displayed on each page of the file list page. [Recommended setting value is between 100 and 1000];
 	 * If the setting is greater than 1000, it will cause an error when requesting drive api;
@@ -66,8 +71,8 @@ const uiConfig = {
 	"copyright_year": "2021", // year of copyright, can be anything like 2015 - 2020 or just 2020
 	"owner_name": "Bendrive Systems Pvt. Ltd.", // Name next to copyright
 	"owner_link": "https://t.me/BenTennyson_xDBot", // link of owner github
-	"company_name": "ShiNobi Cloud", // Name next to owner
-	"company_link": "https://t.telegram.ind.in/ShiNobiCloud", // link of copyright name
+	"company_name": "Swapnil", // Name next to owner
+	"company_link": "https://t.me/BenTennyson_xDBot", // link of copyright name
 	"credit": true, // Set this to true to give us credit
 };
 

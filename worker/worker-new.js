@@ -4,7 +4,7 @@
 const authConfig = {
 	"siteName": "Bendrive XD", // Website name
 	"client_id": "202264815644.apps.googleusercontent.com",
-	"client_secret": "X4Z3ca8xfWDb1Voo-F9a7ZxJ",
+	"client_secret": "",
 	"refresh_token": "", // Authorize token
 	/**
 	 * Set up multiple Drives to display; add multiples by format

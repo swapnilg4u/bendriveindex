@@ -643,6 +643,26 @@ function file(path) {
 	if ('pdf' === ext) return file_pdf(path);
 }
 
+// Document display |zip|.exe/others direct downloads
+function file_others(path) {
+	var type = {
+		"zip": "zip",
+		"exe": "exe",
+		"rar": "rar",
+	};
+	var name = path.split('/').pop();
+	var ext = name.split('.').pop().toLowerCase();
+	var href = window.location.origin + path;
+	var content = `
+<div class="container"><br>
+<div class="card">
+<div class="card-body">
+  <div class="alert alert-danger" id="folderne" role="alert"></div><script>document.getElementById("folderne").innerHTML=decodeURI(this.window.location.href.substring(window.location.href.lastIndexOf('/',window.location.href.lastIndexOf('/')+1))).replace('/','').replace('?a=view','');</script>
+</div>
+<p class="card-text text-center"><a href="${href}" class="btn btn-primary">Download</a></p><br>`;
+	$('#content').html(content);
+}
+
 // Document display |html|php|css|go|java|js|json|txt|sh|md|
 function file_code(path) {
 	var type = {

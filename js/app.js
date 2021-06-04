@@ -25,23 +25,6 @@ function init() {
 </div>
 <br>
 <footer class="footer text-muted"> <div class="container"> <p class="float-right"> <a href="#">Back to top</a> </p>${UI.credit ? '<p>Redesigned with <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-heart-fill" fill="red" xmlns="http://www.w3.org/2000/svg"> <path fill-rule="evenodd" d="M8 1.314C12.438-3.248 23.534 4.735 8 15-7.534 4.736 3.562-3.248 8 1.314z" /> </svg> by <a href="https://t.me/BenTennyson_xDBot" target="_blank"> Ben Tennyson</a>, based on Open Source Softwares.</p>' : ''} <p><p class="float-right"><a href="https://bendrive.gq"><img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fbendrive.gq&count_bg=%23961717&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=Visitors&edge_flat=false"/></a> </p>© ${UI.copyright_year} - <a href=" ${UI.company_link}" target="_blank"> ${UI.company_name}</a>, All Rights Reserved.   </p> </div> </footer>
-<script>
-  window.intergramId = "Your unique chat id";
-  window.intergramCustomizations = {
-    titleClosed: 'Chat',
-    titleOpen: 'Contact Admin',
-    introMessage: 'Elaborate your query, I\'m happy to help.',
-    autoResponse: "Hey! Seems like none of the admins are online at the moment. I'll let them know once they get back.",
-    autoNoResponse: 'Do you need help with anything else?',
-
-    // Can be any css supported color 'red', 'rgb(255,87,34)', etc
-    mainColor: "#800000",
-    alwaysUseFloatingButton: true // use the mobile floating button also on large screens
-  };
-
-</script>
-<script id="intergram" type="text/javascript" src="https://www.intergram.xyz/js/widget.js"></script>
-
 `;
 	$('body').html(html);
 }

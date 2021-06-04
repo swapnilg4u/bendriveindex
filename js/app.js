@@ -34,7 +34,7 @@ function init() {
     autoResponse: "Hey! Seems like none of the admins are online at the moment. I'll let them know once they get back.",
     autoNoResponse: "Do you need help with anything else?",
     mainColor: "#800000",
-    alwaysUseFloatingButton: true // use the mobile floating button also on large screens
+    alwaysUseFloatingButton: false // use the mobile floating button also on large screens
   };
 
 </script>
